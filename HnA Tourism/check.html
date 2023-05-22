@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HnA_Tourism</title>
+
+	 <style>
+	 
+html,body{height:100%;
+width:100%}
+
+body{
+  background-image: url("green.jpeg");
+ background-size: 100%;
+  background-position: center; 
+background-repeat: no-repeat;
+
+  }
+
+.con
+{text-align:center;}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 2%;
+    text-align: center;
+    float: left;
+}
+
+nav{
+    background-color: rgb(0, 100, 0);
+    overflow: hidden;
+    width: 100%;
+}
+
+nav a:hover{
+    color: rgb(187, 187, 187) ;
+}
+
+
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+	margin-top:180px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+ 
+	 
+	 </style>
+<body>
+<div class="row">
+    <div class="col-md-12">
+        <nav>
+       <a href="Home.php"><b style="font-family: Cursive;">HNA Tourism</b></a>
+        <a href="Home.php">Home</a>
+        <a href="ContactUs.php">Contact</a>
+        <a href="About.html">About</a>		
+       <a href="book.php">Book Tour </a>
+       <a href="check.html">Search Bookings</a>
+        <a href="index.php">Login</a>  
+        <a href="logout.php">Logout</a>
+
+      
+        
+    </nav>
+</div>	
+<div class="con">
+<h1 style="font-size:60px; color:yellow;text-align:left;"> Search your booking</h1>
+	<form method="POST" action="view1.php">
+<label for="city">
+	<h2 style=" color:yellow;text-align:left;">Search by City:
+</label>
+<input type="submit" name="submit" value="Find"></h2>
+</form>
+
+<form method="POST" action="view2.php">
+<label for="destination">
+	<h2 style=" color:yellow; text-align:left;">Search by destination:
+</label>
+<input type="submit" name="submit" value="Find"></h2>
+</form>
+
+<form method="POST" action="view3.php">
+<label for="dates">
+	<h2 style=" color:yellow;text-align:left;">Search by dates:
+</label>
+<input type="submit" name="submit" value="Find"></h2>
+</form>
+
+<form method="POST" action="view4.php">
+<label for="no_tourist">
+	<h2 style=" color:yellow;text-align:left;">Search by no of tourist:
+</label>
+<input type="submit" name="submit" value="Find"></h2>
+</form>
+
+<form method="POST" action="view5.php">
+<label for="package">
+	<h2 style=" color:yellow;text-align:left;">Search by package:
+</label>
+<input type="submit" name="submit" value="Find"></h2>
+</form>
+</div>
+    <footer>
+        
+        <a href="ContactUs.php">Contact Us</a>
+        <a href="#">&copy; 2022 |  HnA</a> 
+        <a href="#">  HnA Tourism website is Designed in 2022 <b></b>
+        </a>
+    </footer>
+</body>
+</html>
